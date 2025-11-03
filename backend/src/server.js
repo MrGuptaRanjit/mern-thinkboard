@@ -18,7 +18,10 @@ const __dirname = path.resolve()
 // middleware
 if(process.env.NODE_ENV !== "production"){
 app.use(cors({
-    origin : "http://localhost:5173",
+    origin :[
+         "http://localhost:5173",
+         "https://mern-inotebook-31sj.onrender.com"
+    ]
 }));
 }
 
