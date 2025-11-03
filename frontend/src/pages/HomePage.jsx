@@ -30,7 +30,8 @@ const HomePage = () => {
         setLoading(false);
       }
     };
-  })
+    fetchNotes();
+  } , [])
 
   return (
   <div className="min-h-screen"> 
