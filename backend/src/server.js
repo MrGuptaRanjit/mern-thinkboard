@@ -26,7 +26,7 @@ app.use(cors({
 }
 
 app.use(express.json()); // this middleware will parse JSON Bodies : req.body
-app.use(rateLimiter);
+// app.use(rateLimiter);
 
 // our simple custom middleware 
 // app.use((req,res,next) => {
