@@ -31,6 +31,7 @@ const HomePage = () => {
   }, []);
 
   return (
+    // this comment is for checking only
     <div className="min-h-screen bg-base-200">
       <Navbar />
       {isRateLimited && <RateLimitedUI />}
